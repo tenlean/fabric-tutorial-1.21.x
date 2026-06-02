@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod",
+	"version": "${version}",
+	"name": "Tutorial Mod",
+	"description": "Tutorial mod to get started with modding java mc",
+	"authors": [
+		"tenlean"
+	],
+	"contact": {
+		"homepage": "https://tenzinpepper.me/",
+		"sources": "https://github.com/tenlean/Fabric-Tutorial-1.21.X"
+	},
+	"license": "MIT",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.tenzinant.tutorialmod.TutorialMod"
+		],
+		"fabric-datagen": [
+			"net.tenzinant.tutorialmod.TutorialModDataGenerator"
+		],
+		"client": [
+			"net.tenzinant.tutorialmod.TutorialModClient"
+		]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
