@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://tenzinpepper.me/",
-		"sources": "https://github.com/tenlean/Fabric-Tutorial-1.21.X"
+		"sources": "https://github.com/tenlean/fabric-tutorial-1.21.x"
 	},
 	"license": "MIT",
 	"icon": "assets/tutorialmod/icon.png",
